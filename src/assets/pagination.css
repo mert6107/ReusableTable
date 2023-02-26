@@ -1,0 +1,35 @@
+.pagUl{
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    list-style-type:none;
+    margin-left:-35px;
+}
+.page-item{
+    margin-right: 11px;
+    border:1px solid #484848;
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;   
+    text-align: center; 
+}
+.page-item:hover{
+    background-color: #c9c6c6;
+}
+.page-item a{
+    text-decoration: none;
+    color:#484848;
+    font-size:14px;
+    font-weight: 700;
+}
+.p-active{
+    background-color: #204080;
+    color:white
+}
+.p-active a{
+    background-color: #204080;
+    color:white
+}
+.p-active:hover{
+    background-color: #204080;
+}
